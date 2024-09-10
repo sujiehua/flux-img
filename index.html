@@ -1,8 +1,98 @@
-<html>
-    <title>test</title>
-    <body>
-        <h1>
-            这是一个测试页面
-        </h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">AI Image Generator</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-button">Home</a>
+            <a href="#price" class="nav-button">Price</a>
+        </div>
+        <a href="#login" class="login-button">Login</a>
+    </nav>
+
+    <main>
+        <div class="content-wrapper">
+            <section id="input-section">
+                <h2>Enter Prompt</h2>
+                <textarea id="prompt" placeholder="Describe the image you want to generate..."></textarea>
+                <button id="generate">Generate Image</button>
+            </section>
+
+            <section id="output-section">
+                <h2>Generated Images</h2>
+                <div class="image-grid">
+                    <div class="image-item">
+                        <img src="https://picsum.photos/300/300?random=1" alt="Generated image 1">
+                    </div>
+                    <div class="image-item">
+                        <img src="https://picsum.photos/300/300?random=2" alt="Generated image 2">
+                    </div>
+                    <div class="image-item">
+                        <img src="https://picsum.photos/300/300?random=3" alt="Generated image 3">
+                    </div>
+                    <div class="image-item">
+                        <img src="https://picsum.photos/300/300?random=4" alt="Generated image 4">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <section id="recommended-works">
+        <h2>Recommended Works</h2>
+        <div class="works-grid">
+            <div class="work-item">
+                <img src="https://picsum.photos/400/300?random=5" alt="Recommended work 1">
+                <div class="work-info">
+                    <h3>Cosmic Dreams</h3>
+                    <p>By AI Artist #1</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="https://picsum.photos/400/300?random=6" alt="Recommended work 2">
+                <div class="work-info">
+                    <h3>Neon City</h3>
+                    <p>By AI Artist #2</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="https://picsum.photos/400/300?random=7" alt="Recommended work 3">
+                <div class="work-info">
+                    <h3>Digital Nature</h3>
+                    <p>By AI Artist #3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3>How does AI image generation work?</h3>
+                <p>AI image generation uses advanced machine learning algorithms to create unique images based on text descriptions or prompts provided by users.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I use the generated images commercially?</h3>
+                <p>Yes, all images generated through our platform are royalty-free and can be used for both personal and commercial purposes.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How long does it take to generate an image?</h3>
+                <p>Image generation typically takes between 10-30 seconds, depending on the complexity of the prompt and current server load.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AI Image Generator. All rights reserved.</p>
+    </footer>
+</body>
 </html>
+
